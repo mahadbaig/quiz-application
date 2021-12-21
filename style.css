@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.start-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+    
+.start-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.info-box , .quiz-box , .result-box{
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    border: blueviolet 2px solid;
+}
+
+.hide{
+    display: none;
+}
+
+.info-title{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px blueviolet solid;
+}
+
+.info-list{
+    padding: 15px 0;
+}
+
+.info{
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.info span{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    border-top: 1px solid lightgray;
+}
+
+
+.buttons button{
+    border: 2px solid blueviolet ;
+    border-radius: 5px;
+    margin: 0 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.quiz-box header{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid blueviolet;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    border: 1px blueviolet dashed;
+    padding: 2px 5px;
+}
+
+.timer-text{
+    font-size: 15px ;
+    user-select: none !important;
+}
+
+.timer-sec{
+    font-weight: bold;
+    user-select: none !important;
+    color: violet;
+}
+
+.quiz-box section{
+    padding: 15px 0;
+}
+
+#ques-text{
+    font-size: 20px ;
+    font-weight: bold;
+    
+}
+
+.option-list{
+    padding: 10px 0;
+    display: block;
+}
+
+.option{
+    margin: 8px 0;
+    border: violet 2px solid;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s ease all;
+}
+
+.option:hover{
+    border: blueviolet 2px solid;
+    
+}
+
+.icon{
+    /* padding: 5px; */
+    border-radius: 100px;
+    border: blueviolet 2px solid;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+}
+
+
+.quiz-box footer{
+    width: 100%;
+    text-align: end;
+}
+
+.total-ques span{
+    display: flex;
+    user-select: none !important;
+}
+
+.total-ques span p{
+    padding:0 5px;
+    font-weight: bold;
+}
+
+#next-btn{
+    border: 2px solid blueviolet ;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.complete-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#score-text span{
+    display: flex;
+}
+
+#score-text span p{
+    padding: 0 5px;
+}
+
+.disable{
+    pointer-events: none;
+}
